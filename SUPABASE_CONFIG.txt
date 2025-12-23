@@ -1,0 +1,31 @@
+# Nexus Supabase Configuration
+# ⚠️ CRITICAL: ALL components must use these EXACT values!
+
+# ===========================
+# UNIFIED SUPABASE INSTANCE
+# ===========================
+# Project: jkzevomdrjxapdfeftjc
+# Used by: Backend, Frontend, Mobile, Extension
+
+SUPABASE_URL=https://zdibotjktsxkrokgipya.supabase.co
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpkaWJvdGprdHN4a3Jva2dpcHlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM1NDAwOTksImV4cCI6MjA3OTExNjA5OX0.dG6WperuZxIyaEmrR9UkCqS-lxruW18u5tuRbgGNRaA
+
+# ===========================
+# UPDATE THESE IN:
+# ===========================
+# 1. Backend/Server/.env
+#    SUPABASE_URL=https://jkzevomdrjxapdfeftjc.supabase.co
+#    SUPABASE_ANON_KEY=eyJhbGci...
+#
+# 2. Frontend/.env
+#    VITE_SUPABASE_URL=https://jkzevomdrjxapdfeftjc.supabase.co
+#    VITE_SUPABASE_ANON_KEY=eyJhbGci...
+#
+# 3. mobilef/app.json (already correct)
+#    "extra": {
+#      "SUPABASE_URL": "https://jkzevomdrjxapdfeftjc.supabase.co",
+#      "SUPABASE_ANON_KEY": "eyJhbGci..."
+#    }
+#
+# 4. Extension/popup.js (NOW UPDATED ✅)
+#    const SUPABASE_URL = 'https://jkzevomdrjxapdfeftjc.supabase.co';

@@ -1,0 +1,76 @@
+﻿
+Building Windows application...                                 
+flutter : lib/widgets
+/memory_card.dart(57,
+30): error 
+G297C951C: Can't 
+find ')' to match 
+'('. [D:\My_Revive\My
+_Revive\nexus_flutter
+\build\windows\x64\fl
+utter\flutter_assembl
+e.vcxproj]
+At line:1 char:1
++ flutter build 
+windows --debug 2>&1 
+| Out-File -FilePath 
+build_error.t ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (lib/wid   
+ gets/mem...sembl    
+e.vcxproj]:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+lib/widgets/memory_ca
+rd.dart(55,23): 
+error G297C951C: 
+Can't find ')' to 
+match '('. [D:\My_Rev
+ive\My_Revive\nexus_f
+lutter\build\windows\
+x64\flutter\flutter_a
+ssemble.vcxproj]
+lib/widgets/memory_ca
+rd.dart(29,21): 
+error G297C951C: 
+Can't find ')' to 
+match '('. [D:\My_Rev
+ive\My_Revive\nexus_f
+lutter\build\windows\
+x64\flutter\flutter_a
+ssemble.vcxproj]
+C:\Program Files 
+(x86)\Microsoft 
+Visual Studio\2022\Bu
+ildTools\MSBuild\Micr
+osoft\VC\v170\Microso
+ft.CppCommon.targets(
+254,5): error 
+MSB8066: Custom 
+build for 'D:\My_Revi
+ve\My_Revive\nexus_fl
+utter\build\windows\x
+64\CMakeFiles\5e2fd32
+5f5954bc3bd858e3d6c9d
+7440\flutter_windows.
+dll.rule;D:\My_Revive
+\My_Revive\nexus_flut
+ter\build\windows\x64
+\CMakeFiles\8f63fff2a
+c24ff89508143efeb2379
+38\flutter_assemble.r
+ule' exited with 
+code 1. [D:\My_Revive
+\My_Revive\nexus_flut
+ter\build\windows\x64
+\flutter\flutter_asse
+mble.vcxproj]
+Building Windows application...                                    15.7s
+Build process failed.
